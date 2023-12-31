@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password || Generator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <script src="index.js"></script>
+    <div class="parent">
+
+        <div class="cards">
+            
+            <h4>Strong password Generator</h4>
+                <br>
+                <br>
+            <form name="randomform" class="form">
+                <div class="inner">
+                    <input type="text"  id="result" placeholder="Generated password" class="myInput"><br>
+                    <button onclick="myFunction()">Copy</button>
+                </div>
+                <br>
+                <br>
+                <div class="inner">
+                    <p id="randomfield" style="color: green" class="randomfield">Generated password</p> 
+                    <button onclick="copy()" >Copy</button>
+                </div>
+                <br>
+                <input id="strlength" type="number" value="5" min="1" max="20" /><br>
+                <br>
+                <button type="button" onclick="rand(),randomString()" class="btn">Generate Password</button>
+          
+        </form>
+        </div>
+        
+</div>
+
+    </div>
+  
+    
+</body>
+
+</html>
